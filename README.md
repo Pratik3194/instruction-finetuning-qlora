@@ -26,7 +26,7 @@ git clone https://github.com/Pratik3194/instruction-finetuning-qlora.git
 cd instruction-finetuning-qlora
 pip install -r requirements.txt
 
-▶️ Usage
+## ▶️ Usage
 Run the notebook step by step:
 Mount Google Drive (if using Colab)
 Install dependencies
