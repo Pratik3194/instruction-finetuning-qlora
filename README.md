@@ -6,6 +6,7 @@ The goal is to perform **Supervised Finetuning (SFT)** on function-calling tasks
 ---
 
 ## 🚀 Features
+
 - Fine-tuning CodeLlama with QLoRA for instruction-following tasks  
 - Parameter-efficient approach using PEFT  
 - Demonstrates function-calling use cases  
@@ -14,36 +15,49 @@ The goal is to perform **Supervised Finetuning (SFT)** on function-calling tasks
 ---
 
 ## 📂 Project Structure
+
 - `instruction-finetuning-qlora-assignment.ipynb` : Main notebook with the complete workflow  
 
 ---
 
 ## ⚙️ Installation
+
 Clone the repository and install the requirements:
 
 ```bash
 git clone https://github.com/Pratik3194/instruction-finetuning-qlora.git
 cd instruction-finetuning-qlora
 pip install -r requirements.txt
+```
+
+---
 
 ## ▶️ Usage
+
 Run the notebook step by step:
-Mount Google Drive (if using Colab)
-Install dependencies
-Login to Weights & Biases (W&B) for experiment tracking
-Load dataset and preprocess
-Fine-tune CodeLlama using QLoRA + PEFT
-Evaluate and test the model
 
-📊 Results
-Successfully fine-tuned CodeLlama for function-calling tasks
-Demonstrates efficient training with reduced GPU memory usage
+1. Mount Google Drive (if using Colab)
+2. Install dependencies
+3. Login to Weights & Biases (W&B) for experiment tracking
+4. Load dataset and preprocess
+5. Fine-tune CodeLlama using QLoRA + PEFT
+6. Evaluate and test the model
 
-📌 Requirements
-Python 3.9+
-PyTorch
-Hugging Face Transformers
-PEFT
-bitsandbytes
-accelerate
-wandb
+---
+
+## 📊 Results
+
+- Successfully fine-tuned CodeLlama for function-calling tasks
+- Demonstrates efficient training with reduced GPU memory usage
+
+---
+
+## 📌 Requirements
+
+- Python 3.9+
+- PyTorch
+- Hugging Face Transformers
+- PEFT
+- bitsandbytes
+- accelerate
+- wandb
